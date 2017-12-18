@@ -26,5 +26,5 @@ TODO
 
 ### Use other data type than the one provided by [INSEE](https://www.insee.fr/fr/accueil)
 Data on CASD are often provided as SAS table. SAS is proprietary, expensive and innaccessible, it should [not be promoted or used](https://www.gnu.org/philosophy/shouldbefree.en.html). SAS tables are encoded in a proprietary file format, you thus need to use SAS in order to use them.
-1. You can run the following SAS code to export all your Data to CSV.
+1. You can run [this SAS code](https://github.com/adrienpacifico/CASD_utils/blob/master/Export_SAS_to_CSV_from_Source.sas) to export all your Data to CSV.
 2. You can use packages made for your data annalysis software that reverse ingeniered the SAS format (see [SAS7BDAT](https://bitbucket.org/jaredhobbs/sas7bdat) for python, and [SAS7BDAT](https://github.com/BioStatMatt/sas7bdat) for R). Depending on the packages provided by CASD you may or may not have access to them.
